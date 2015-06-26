@@ -1,5 +1,5 @@
 {
-  "name": "drupal-joi",
+  "name": "joi-drupal-hash",
   "version": "1.0.0",
   "description": "Use Joi to check a string against a Drupal password hash",
   "license": "ISC",
