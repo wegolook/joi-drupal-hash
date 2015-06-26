@@ -1,0 +1,30 @@
+{
+  "name": "drupal-joi",
+  "version": "1.0.0",
+  "description": "Use Joi to check a string against a Drupal password hash",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "WeGoLook, LLC <dev@wegolook.com>",
+  "contributors": [
+    {
+      "name": "Nicholas Lindley",
+      "email": "nick.lindley@wegolook.com"
+    }
+  ],
+  "license": "ISC",
+  "peerDependencies": {
+    "joi": "^6.5.0"
+  },
+  "dependencies": {
+    "drupal-hash": "^1.0.2"
+  },
+  "keywords": [
+    "drupal",
+    "hash",
+    "password",
+    "joi"
+  ]
+}
