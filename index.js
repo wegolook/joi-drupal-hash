@@ -5,7 +5,7 @@ var Language = require('joi/lib/language');
 
 Joi.string().constructor.prototype.drupalHash = function(passwordHash) {
 
-  return this._test('drupalHash', undefined, function (value, state, options) {
+  return this._test('drupalHash', passwordHash, function (value, state, options) {
 
     return DrupalHash.checkPassword(value, passwordHash) ?
       null :
