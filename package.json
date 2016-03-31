@@ -1,6 +1,6 @@
 {
   "name": "joi-drupal-hash",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Use Joi to check a string against a Drupal password hash",
   "license": "ISC",
   "main": "index.js",
@@ -16,7 +16,7 @@
   ],
   "license": "ISC",
   "peerDependencies": {
-    "joi": "^6.5.0"
+    "joi": ">=6.5.0 <9"
   },
   "dependencies": {
     "drupal-hash": "^1.0.2"
